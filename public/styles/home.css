@@ -1,0 +1,92 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css');
+
+html, body{
+  height: 100vh;
+  color: white;
+  background-image: url('/img/Default_Create_an_image_in_anime_style_depicting_a_person_stud_0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+h1{
+  color: green;
+}
+
+.main{
+  border: white 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.barra-lateral{
+  background-color: rgba(75, 75, 75, 0.197);
+  height: 600px;
+  width: 400px;
+  border: white 2px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pesquisa{
+
+}
+
+.pesquisa input{
+  margin-top: 10px;
+  width: 300px;
+  height: 36px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container-musical{
+  /*border: green 1px solid;*/
+  width: 350px;
+  height: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.musica{
+  border: green 1px solid;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.clock{
+  border: white 1px solid;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-right: 70px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.timer{
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.barra-opcoes{
+  background-color: rgba(75, 75, 75, 0.197);
+  align-self: flex-end;
+  width: 1100px;
+  height: 70px;
+  margin: 10px auto 10px auto;
+  border: white 2px solid;
+}
